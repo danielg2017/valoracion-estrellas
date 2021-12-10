@@ -1,0 +1,31 @@
+.cont {
+    border: 2px solid yellow;
+    background-color: #303030;
+    height: 80px;
+    width: 320px;       
+    padding-top: 20px; 
+    padding-left: 3px; 
+}
+
+.star {
+    background: url(/asset/img/ev_n.png);    
+    display: inline-block;
+    border: none;
+    width: 60px;
+    height: 60px;
+}
+
+.star.over {
+    background: url(/asset/img/ep_n.png);
+}
+
+.star.full {
+    background: url(/asset/img/ec_n.png);
+}
+
+.star.half {
+    background: url(/asset/img/em_n.png);
+}
+
+
+
